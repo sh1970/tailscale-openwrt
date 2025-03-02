@@ -39,7 +39,8 @@ esac
 if [ -e /tmp/tailscaled ]; then
     echo "INSTALL: ------------------"
     echo "存在残留, 请卸载并重启后重试"
-    echo "卸载命令: wget -qO- https://ghproxy.net/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/uninstall.sh | sh"
+    echo "卸载命令: "
+    echo "wget -O /tmp/uninstall.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/uninstall.sh && chmod +x /tmp/uninstall.sh && /tmp/uninstall.sh && rm -f /tmp/uninstall.sh"
     echo "---------------------------"
     exit 1
 fi
