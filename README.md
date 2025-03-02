@@ -29,7 +29,7 @@
 ## 0x00 安装
 全新安装
 ```
-wget -O /tmp/install.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/install.sh && chmod +x /tmp/install.sh && /tmp/install.sh
+wget -O /tmp/install.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/install.sh && chmod +x /tmp/install.sh && /tmp/install.sh && rm -f /tmp/install.sh
 ```
 > 请注意, 由于tailscale 1.48.0版本后支持了nftables，本项目于2024.8.20、tailscale:1.72.0时更新支持，将环境变量`TS_DEBUG_FIREWALL_MODE=auto`传递给tailscale进程，如果你发现系统日志中tailscale无法正常启动，请考虑设置具体的防火墙模式（修改/etc/init.d/tailscale），详见[设置](https://tailscale.com/kb/1294/firewall-mode#how-to-set-the-firewall-mode)
 
@@ -40,7 +40,7 @@ wget -O /tmp/install.sh https://ghfast.top/https://raw.githubusercontent.com/CH3
 - ***请注意不要在ssh连接期间卸载，因为ssh连接将丢失！使用风险自负。***
 
 ```
-wget -O /tmp/uninstall.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/uninstall.sh && chmod +x /tmp/uninstall.sh && /tmp/uninstall.sh
+wget -O /tmp/uninstall.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/uninstall.sh && chmod +x /tmp/uninstall.sh && /tmp/uninstall.sh && rm -f /tmp/uninstall.sh
 ```
 ------------
 ## 0x02 升级
@@ -53,7 +53,7 @@ reboot
 - 保留配置升级
 - ***如果下载器脚本(tailscale_downloader)存在版本更新(更新代理地址等), 运行以下命令更新最新下载器脚本***:
 ```
-rm -rf /tmp/tailscale* && wget -O /tmp/install.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/install.sh && chmod +x /tmp/install.sh && /tmp/install.sh && reboot
+rm -rf /tmp/tailscale* && wget -O /tmp/install.sh https://ghfast.top/https://raw.githubusercontent.com/CH3NGYZ/tailscale-openwrt/chinese_mainland/install.sh && chmod +x /tmp/install.sh && /tmp/install.sh && rm -f /tmp/install.sh && reboot
 ```
 ------------
 
