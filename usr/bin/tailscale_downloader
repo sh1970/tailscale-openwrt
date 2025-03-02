@@ -47,13 +47,13 @@ if [ ! -f /tmp/tailscale ]; then
     latest_version="not_available"
     version_timeout=10
     version_url="CH3NGYZ/tailscale-openwrt/releases/latest"
-    version_proxys="https://mirror.ghproxy.com/https://github.com
-                    https://www.ghproxy.cn/https://github.com
+    version_proxys="https://ghfast.top/https://github.com
+                    https://cf.ghproxy.cc/https://github.com
                     https://www.ghproxy.cc/https://github.com
                     https://gh-proxy.com/https://github.com
                     https://ghproxy.cc/https://github.com
-                    https://cf.ghproxy.cc/https://github.com
                     https://ghproxy.cn/https://github.com
+                    https://www.ghproxy.cn/https://github.com
                     https://github.com"
 
     range="1 2 3"
@@ -63,6 +63,7 @@ if [ ! -f /tmp/tailscale ]; then
         for version_proxy in $version_proxys; do
             version_proxy_url="$version_proxy/$version_url"
             get_version=$(timeout $version_timeout wget -c -qO- "$version_proxy_url" | grep 已从上游同步 | head -1 | cut -d'%' -f 2)
+
             if [ -n "$get_version" ]; then
                 echo "DOWNLOAD: -----------------------------------"
                 echo "通过 $version_proxy 获取版本号：$get_version"
@@ -73,6 +74,8 @@ if [ ! -f /tmp/tailscale ]; then
                 echo "DOWNLOAD: ----------------------------------------------------"
                 echo "通过 $version_proxy 获取版本号为空，尝试下一个链接..."
                 echo "--------------------------------------------------------------"
+                # 移除无效代理地址
+                version_proxys=$(echo "$version_proxys" | sed "s|$version_proxy||")
             fi
         done
     done
