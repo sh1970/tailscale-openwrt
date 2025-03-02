@@ -84,12 +84,12 @@ for proxy_zip_url in $proxy_zip_urls; do
     if timeout $timeout_seconds wget -q $proxy_zip_url -O - | tar x -zvC / -f - > /dev/null 2>&1; then
         download_success=true
         echo "INSTALL: ------"
-        echo "下载安装脚本成功!"
+        echo "通过 $proxy_zip_url 下载安装脚本成功!"
         echo "---------------"
         break
     else
         echo "INSTALL: ------------------"
-        echo "下载安装脚本失败，尝试下一个代理"
+        echo "通过 $proxy_zip_url 下载安装脚本失败，尝试下一个代理"
         echo "---------------------------"
     fi
 done
