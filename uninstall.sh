@@ -34,13 +34,17 @@ else
     cleanup
 fi
 
-read -p "强烈推荐重启，请选择是否重启？(Y/N): " choice
+while true; do
+    read -p "是否要重启？(Y/N): " choice
 
-if [ "$choice" = "Y" ] || [ "$choice" = "y" ]; then
-    echo "正在重启..."
-    reboot
-elif [ "$choice" = "N" ] || [ "$choice" = "n" ]; then
-    echo "取消重启。"
-else
-    echo "无效的选项，取消重启。"
-fi
+    if [ "$choice" = "Y" ] || [ "$choice" = "y" ]; then
+        echo "正在重启..."
+        reboot
+        break
+    elif [ "$choice" = "N" ] || [ "$choice" = "n" ]; then
+        echo "取消重启。"
+        break
+    else
+        echo "无效的选项，请输入 Y 或 N。"
+    fi
+done
