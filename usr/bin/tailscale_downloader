@@ -37,8 +37,6 @@ if [ ! -f /tmp/tailscale ]; then
         *)
             echo "DOWNLOAD: ----------------------------------------------------"
             echo "当前机器的架构是${arch}${endianness}, 脚本不兼容此架构"
-            echo "请给作者提issue以便作者及时修改脚本:"
-            echo "https://github.com/CH3NGYZ/tailscale-openwrt/issues"
             echo "--------------------------------------------------------------"
             exit 1
             ;;
