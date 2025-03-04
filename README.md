@@ -21,9 +21,6 @@
 > [此分支的安装脚本及tailscale下载器都添加了多个代理, 如果代理全部失效, 请提issue联系我更换代理](https://github.com/CH3NGYZ/tailscale-openwrt/issues/new)
 > 
 ![image](https://github.com/CH3NGYZ/tailscale-openwrt/assets/56500405/3823d18e-ccfd-459f-a45d-b451b8160ced)
-
-> 注：题外话，在windows平台下clash的TUN模式与Docker Desktop、Tailscale Windows不兼容, 解决办法: 暂时关闭TUN, 登录完毕后再打开.
->  [原因](https://chengyunzhe.notion.site/chengyunzhe/clash-for-windows-docker-tailscale-fccff782bd2c482cb9b7d3dd08c58b18)
 ------------
 
 ## 0x00 安装
