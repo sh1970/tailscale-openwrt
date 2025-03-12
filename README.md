@@ -4,8 +4,8 @@
 
 || 硬盘剩余空间 < 80MB | 硬盘剩余空间 > 80MB |
 | --- | --- | --- |
-| 内存剩余空间 < 80MB | 不可用 | 不可用，但你可以手动将 tailscale 安装到内置存储中, [官方教程](https://tailscale.com/download/linux/static) [手动安装方法](https://github.com/CH3NGYZ/tailscale-openwrt/issues/18#issuecomment-2336612695)  |
-| 内存剩余空间 > 80MB | 可用 | 可用, 但由于Github代理可能会随时失效，请尽量考虑将 tailscale 安装到内置存储中, [手动安装方法](https://github.com/CH3NGYZ/tailscale-openwrt/issues/18#issuecomment-2336612695) |
+| 内存剩余空间 < 80MB | 不可用 | 不可用，但你可以手动将 tailscale 安装到内置存储中, [官方教程](https://tailscale.com/download/linux/static)，[手动安装方法](https://github.com/CH3NGYZ/tailscale-openwrt/issues/18#issuecomment-2336612695)  |
+| 内存剩余空间 > 80MB | 可用 | 可用, 但由于Github代理可能会随时失效，请尽量考虑将 tailscale 安装到内置存储中, [官方教程](https://tailscale.com/download/linux/static) ，[手动安装方法](https://github.com/CH3NGYZ/tailscale-openwrt/issues/18#issuecomment-2336612695) |
 * zip文件+解压后的可执行文件大约80MB
 
 
