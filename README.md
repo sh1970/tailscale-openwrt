@@ -65,6 +65,3 @@ rm -rf /tmp/tailscale* && wget -O /tmp/install.sh https://ghfast.top/https://raw
 [adyanth [openwrt-tailscale-enabler]](https://github.com/adyanth/openwrt-tailscale-enabler) 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CH3NGYZ/tailscale-openwrt&type=Date)](https://www.star-history.com/#CH3NGYZ/tailscale-openwrt&Date)
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
