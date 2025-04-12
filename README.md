@@ -65,3 +65,6 @@ rm -rf /tmp/tailscale* && wget -O /tmp/install.sh https://ghfast.top/https://raw
 [adyanth [openwrt-tailscale-enabler]](https://github.com/adyanth/openwrt-tailscale-enabler) 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CH3NGYZ/tailscale-openwrt&type=Date)](https://www.star-history.com/#CH3NGYZ/tailscale-openwrt&Date)
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<span id="busuanzi_value_page_pv">本文总阅读量<i class="fa fa-spinner fa-spin"></i>次</span>
