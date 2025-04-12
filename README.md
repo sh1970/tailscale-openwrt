@@ -1,8 +1,8 @@
 # Tailscale on OpenWRT :smiley: 
 
-[![Page Views Count](https://badges.toozhao.com/badges/01GZWH4F36G14VWXT8RP9KRCYV/green.svg)](https://badges.toozhao.com/stats/01GZWH4F36G14VWXT8RP9KRCYV)
+[![Page Views Count](https://api.visitorbadge.io/api/visitors?path=https://github.com/CH3NGYZ/tailscale-openwrt)](https://github.com/CH3NGYZ/tailscale-openwrt)
 
-[![Realese](https://github.com/CH3NGYZ/tailscale-openwrt/release)](https://img.shields.io/github/release/CH3NGYZ/tailscale-openwrt)
+[![Realese](https://img.shields.io/github/release/CH3NGYZ/tailscale-openwrt)](https://github.com/CH3NGYZ/tailscale-openwrt/release)
 
 
 
