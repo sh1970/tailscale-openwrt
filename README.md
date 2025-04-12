@@ -1,4 +1,8 @@
-9# Tailscale on OpenWRT :smiley: [![Page Views Count](https://badges.toozhao.com/badges/01GZWH4F36G14VWXT8RP9KRCYV/green.svg)](https://badges.toozhao，.com/stats/01GZWH4F36G14VWXT8RP9KRCYV)
+# Tailscale on OpenWRT :smiley: [![Page Views Count](https://badges.toozhao.com/badges/01GZWH4F36G14VWXT8RP9KRCYV/green.svg)](https://badges.toozhao.com/stats/01GZWH4F36G14VWXT8RP9KRCYV)
+
+[Realese Version](https://img.shields.io/github/release/CH3NGYZ/tailscale-openwrt)
+
+
 
 # 发现了另一个比较好的[仓库](https://github.com/Admonstrator/glinet-tailscale-updater)
 ## 可以通过UPX压缩可执行文件体积，压缩后的文件大小5MB左右，貌似可以直接安装在本机，我接下来会结合此仓库和本仓库的自动更新脚本重新编写更优的脚本，敬请期待。
@@ -65,3 +69,4 @@ rm -rf /tmp/tailscale* && wget -O /tmp/install.sh https://ghfast.top/https://raw
 [adyanth [openwrt-tailscale-enabler]](https://github.com/adyanth/openwrt-tailscale-enabler) 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=CH3NGYZ/tailscale-openwrt&type=Date)](https://www.star-history.com/#CH3NGYZ/tailscale-openwrt&Date)
+
