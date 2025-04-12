@@ -1,4 +1,7 @@
-# Tailscale on OpenWRT :smiley: [![Page Views Count](https://badges.toozhao.com/badges/01GZWH4F36G14VWXT8RP9KRCYV/green.svg)](https://badges.toozhao.com/stats/01GZWH4F36G14VWXT8RP9KRCYV)
+# Tailscale on OpenWRT :smiley: [![Page Views Count](https://badges.toozhao.com/badges/01GZWH4F36G14VWXT8RP9KRCYV/green.svg)](https://badges.toozhao，.com/stats/01GZWH4F36G14VWXT8RP9KRCYV)
+
+# 发现了另一个比较好的仓库 https://github.com/Admonstrator/glinet-tailscale-updater，可以通过UPX压缩可执行文件体积，压缩后的文件大小5MB左右，貌似可以直接安装在本机，我接下来会结合此仓库和本仓库的自动更新脚本重新编写更优的脚本，敬请期待。
+
 * 本项目最初编写的目的是适配存储不足, 但内存充足的设备, 原理是将下载的tailscale放入/tmp中, 当然你如果追求版本更新, 也可以使用本项目, 如果你存储充足, 请尽量考虑安装到机内存储中，或使用官方命令安装。 (因为国内的CDN有时候是会失效的, 重启路由器下载不下来tailscale就连不上了).
 * 注意, 本项目是否可用于您的路由器，请参考以下表格：
 
