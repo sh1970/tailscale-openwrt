@@ -1,5 +1,5 @@
 # Tailscale on OpenWRT
-[![Release](https://img.shields.io/github/release/CH3NGYZ/tailscale-openwrt)](https://github.com/CH3NGYZ/tailscale-openwrt/release)
+[![Release](https://img.shields.io/github/release/CH3NGYZ/tailscale-openwrt)](https://github.com/CH3NGYZ/tailscale-openwrt/releases)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FCH3NGYZ%2Ftailscale-openwrt&label=views&countColor=%23263759&style=flat)](https://github.com/CH3NGYZ/tailscale-openwrt)
 ---
 
