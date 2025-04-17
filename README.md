@@ -20,12 +20,9 @@
 
 ## 推荐仓库
 
-推荐一个较为优秀的项目：[glinet-tailscale-updater](https://github.com/Admonstrator/glinet-tailscale-updater)
+***✔️✔️✔️您可以选择我重新创建的另一个[仓库](https://github.com/CH3NGYZ/ts-test), release采用了UPX压缩, 还有更直观好用的脚本.✔️✔️✔️***
 
-该项目通过 UPX 对可执行文件进行压缩，最终体积约为 5MB，可直接在路由器设备中安装。
-
-您可以选择重新创建的另一个[仓库](https://github.com/CH3NGYZ/ts-test), release采用了UPX压缩, 还有更直观好用的脚本.
-
+该仓库内的release文件通过 UPX 对可执行文件进行压缩，最终体积约为 6-7MB，可直接在路由器设备中安装。
 
 ---
 
