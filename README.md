@@ -22,20 +22,6 @@ CDN acceleration and security protection for this project are sponsored by [Tenc
 
 ---
 
-## 请注意
-
-***🚨🚨🚨由于本仓库不再维护 [![deprecated](https://img.shields.io/badge/状态-不再维护-red)](https://github.com/CH3NGYZ/small-tailscale-openwrt) , 您可以选择我维护的另一个同功能[仓库](https://github.com/CH3NGYZ/small-tailscale-openwrt)🚨🚨🚨***
-
-- 该仓库通过 UPX 对可执行文件进行压缩，最终体积约为 6-7MB，可直接在路由器设备中安装(某些架构无法压缩, 可执行文件大小约为20MB)。
-- 支持内存闪存双安装模式
-- 支持固定版本安装
-- 支持自动更新
-- 使用自动测速代理, 理论上不会出现代理无法使用的情况
-- 支持自动生成tailscale启动命令
-- 还有更直观好用的脚本
-- ***本仓库不再维护!***
-
----
 
 ## 项目初衷
 
