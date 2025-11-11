@@ -3,6 +3,11 @@
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FCH3NGYZ%2Ftailscale-openwrt&label=views&countColor=%23263759&style=flat)](https://github.com/CH3NGYZ/tailscale-openwrt)
 ---
 
+# Sponsors
+CDN acceleration and security protection for this project are sponsored by [Tencent EdgeOne](https://edgeone.ai/?from=github).
+<img width="2163" height="308" alt="image" src="https://github.com/user-attachments/assets/0aa53c8d-2b8c-4dc0-b200-284f8b265f36" />
+
+
 ## 目录
 
 - [项目初衷](#项目初衷)
