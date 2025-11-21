@@ -5,7 +5,7 @@
 
 # Sponsors
 CDN acceleration and security protection for this project are sponsored by [Tencent EdgeOne](https://edgeone.ai/?from=github).
-<img width="2163" height="308" alt="image" src="https://github.com/user-attachments/assets/0aa53c8d-2b8c-4dc0-b200-284f8b265f36" />
+<img width="360" height="50" alt="image" src="https://github.com/user-attachments/assets/0aa53c8d-2b8c-4dc0-b200-284f8b265f36" />
 
 
 ## 目录
@@ -22,11 +22,24 @@ CDN acceleration and security protection for this project are sponsored by [Tenc
 
 ---
 
+## 请注意
+
+***🚨🚨🚨由于本仓库不再维护, 您可以选择我维护的另一个同功能[仓库](https://github.com/CH3NGYZ/small-tailscale-openwrt)🚨🚨🚨***
+
+- 该仓库通过 UPX 对可执行文件进行压缩，最终可执行文件体积小于10MB，可直接在路由器设备中安装(某些架构无法压缩, 可执行文件大小约为20MB)。
+- 支持内存闪存双安装模式
+- 支持固定版本安装
+- 支持自动更新
+- 小文件使用我自建的代理
+- 支持自动测速公开代理, 理论上不会出现代理无法使用的情况
+- 支持自动生成tailscale up命令
+- 还有更直观好用的脚本
 
 ## 项目初衷
 
+
 本项目最初旨在支持那些“存储空间有限、但内存相对充足”的 OpenWRT 路由器设备。核心思路是将 Tailscale 下载至 `/tmp`（内存）中运行
-- ***(注:上面提到的[仓库](https://github.com/CH3NGYZ/ts-test)已经可以支持内存闪存双模式安装, 且可执行文件更小)。***
+- ***本仓库已归档，将不再维护，请尽快切换到此[仓库](https://github.com/CH3NGYZ/small-tailscale-openwrt)!***
 
 ---
 
